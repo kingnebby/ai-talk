@@ -1,0 +1,251 @@
+:root {
+  --ink: #14120b;
+  --yellow: #ffe14a;
+  --pink: #ff3b7a;
+  --cream: #f3efe4;
+  --blue: #2f6bff;
+  --coral: #ff5a5a;
+  --violet: #6d4aff;
+  --orange: #ff4d1c;
+  --acid: #e7ff3d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.reveal {
+  background: var(--ink);
+  font-family: "Archivo Black", Impact, sans-serif;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  padding: 0;
+  height: 1080px;
+  width: 1920px;
+}
+
+.reveal .progress {
+  height: 12px;
+  background: rgba(20, 18, 11, 0.35);
+}
+
+.reveal .progress span {
+  background: var(--pink);
+}
+
+.frame {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  padding: 72px 84px;
+  color: var(--ink);
+}
+
+.ink { background: var(--ink); color: var(--yellow); }
+.pink { background: var(--pink); }
+.yellow { background: var(--yellow); }
+.cream { background: var(--cream); }
+.blue { background: var(--blue); color: var(--yellow); }
+.coral { background: var(--coral); }
+.violet { background: var(--violet); color: var(--yellow); }
+.orange { background: var(--orange); }
+.acid { background: var(--acid); }
+
+.split {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  column-gap: 36px;
+}
+
+.split.flip .copy { order: 2; }
+.split.flip .art { order: 1; }
+
+.poster,
+.closer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quote {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.quote.solo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.reveal .frame h1 {
+  margin: 0;
+  font-family: "Archivo Black", Impact, sans-serif;
+  font-weight: 400;
+  font-size: 148px;
+  line-height: 0.84;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.reveal .frame.poster h1,
+.reveal .frame.closer h1 {
+  font-size: 220px;
+  text-align: center;
+}
+
+.reveal .frame.shout h1 {
+  font-size: 320px;
+}
+
+.reveal .frame.mega h1 {
+  font-size: 210px;
+}
+
+.reveal .frame.quote h1 {
+  font-size: 112px;
+  max-width: none;
+}
+
+.reveal .frame.quote.solo h1 {
+  font-size: 200px;
+}
+
+.reveal .frame.quote.long h1 {
+  font-size: 64px;
+  line-height: 0.92;
+}
+
+.reveal .frame.crowded h1 {
+  font-size: 112px;
+}
+
+.reveal .frame.closer h1 {
+  font-size: 132px;
+}
+
+.by {
+  margin: 28px 0 0;
+  font-size: 32px;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.mark {
+  background: var(--ink);
+  color: var(--yellow);
+  padding: 0 0.08em 0.02em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.ink .mark,
+.violet .mark,
+.blue .mark {
+  background: var(--yellow);
+  color: var(--ink);
+}
+
+.art {
+  display: flex;
+  justify-content: center;
+  --rot: -4deg;
+}
+
+.art.tilt-r { --rot: 4deg; }
+
+.art img {
+  width: 720px;
+  height: 720px;
+  object-fit: cover;
+  border: 10px solid var(--ink);
+  border-radius: 40px;
+  background: var(--ink);
+  box-shadow: 18px 18px 0 var(--ink);
+  transform: rotate(var(--rot));
+}
+
+.ink .art img,
+.violet .art img,
+.blue .art img {
+  border-color: var(--yellow);
+  box-shadow: 18px 18px 0 var(--yellow);
+}
+
+.reveal .frame.quote .art {
+  position: static;
+}
+
+.reveal .frame.quote .art img {
+  width: 660px;
+  height: 660px;
+}
+
+.closer .art {
+  margin-bottom: 12px;
+}
+
+.closer .art img,
+.quiet .art img {
+  width: 460px;
+  height: 460px;
+}
+
+.stamp {
+  position: absolute;
+  top: 48px;
+  right: 56px;
+  width: 150px;
+  height: 150px;
+  border: 10px solid currentColor;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(12deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .art img {
+    animation: float 4.8s ease-in-out infinite;
+  }
+
+  .throb h1 {
+    animation: throb 1.8s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% { transform: rotate(var(--rot)) translateY(0); }
+  50% { transform: rotate(var(--rot)) translateY(-18px); }
+}
+
+@keyframes throb {
+  0%,
+  100% { transform: scale(1); }
+  50% { transform: scale(1.035); }
+}
+
+.quiet .art img {
+  animation: none;
+  transform: none;
+}

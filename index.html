@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dan Thoughts on AI</title>
+  <!-- Arrows move. F is fullscreen. S opens speaker notes. -->
+  <link rel="stylesheet" href="node_modules/@fontsource/archivo-black/latin-400.css">
+  <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="css/deck.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <div class="frame ink split">
+          <div class="copy">
+            <h1>Dan<br>thoughts<br>on AI</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/lego-pirate.jpg" alt="A blocky toy pirate">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>I've been coding for 15 years</li>
+            <li>I ran my own company for 3 years</li>
+            <li>Part of my job was advising people on how to build and use AI</li>
+            <li>I'm currently the top AI user where I currently work</li>
+            <li>I'm not an AI expert.</li>
+            <li>But I have deep experience.</li>
+            <li>I'll try to do 3 things:
+              <ul>
+                <li>demystify - "we fear what we don't know"</li>
+                <li>why the divide of opinions?</li>
+                <li>share my opinion.</li>
+                <li>Leave time for Q/A</li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame cream quote long">
+          <div class="copy">
+            <h1>“The longer<br>you can<br>look back,<br>the farther<br>you can<br>look forward.”</h1>
+            <p class="by">Churchill</p>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/churchill.jpg" alt="Winston Churchill">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>What's going to happen with AI?</li>
+            <li>Let's consult the pass first.</li>
+            <li>Then, we can start to understand and demystify AI.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame pink split flip">
+          <div class="copy">
+            <h1>What is<br>a phone?</h1>
+          </div>
+          <div class="art">
+            <img src="images/phone-guts.jpg" alt="A phone split open, showing a chip, memory, and an antenna">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>3 core pieces: cpu, mem, data link</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame yellow split">
+          <div class="copy">
+            <h1>The<br>first one.</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/dynatac.jpg" alt="A brick mobile phone with a long antenna">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>The first mobile phone ever invented</li>
+            <li>Prototype demonstrated: April 3, 1973</li>
+            <li>Released: 1984 (10 years)</li>
+            <li>Stored 30 Phone Numbers</li>
+            <li>No internet. No apps. No calculator.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame blue split flip crowded">
+          <div class="copy">
+            <h1>The first<br>smart one.</h1>
+          </div>
+          <div class="art">
+            <img src="images/simon.jpg" alt="A chunky early handheld communicator with a stylus">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>The first "smart phone"</li>
+            <li>Prototype demonstrated: 1992</li>
+            <li>Released: August 16, 1994</li>
+            <li>CPU: 16 MHz</li>
+            <li>email, fax, calendar, touchscreen and software applications</li>
+            <li>The term "smart phone" didn't arrive until 2000</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split mega">
+          <div class="copy">
+            <h1>6,700×.</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/flagship.jpg" alt="A modern glass smartphone">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>You can't compare the DynaTAC, so we have to compare Simon to the modern iPhone.</li>
+            <li>16 MHz -&gt; 4,930 MHz</li>
+            <li>1 CPU -&gt; 6 CPUs</li>
+            <li>6,700× faster</li>
+            <li>what took Simon 1 hr, now takes half a second.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame acid split flip">
+          <div class="copy">
+            <h1>Same<br>three<br>parts.</h1>
+          </div>
+          <div class="art">
+            <img src="images/three-parts.jpg" alt="A chip, a memory block, and an antenna, each bigger than the last">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>How did this happen?</li>
+            <li>3 core tech pieces (cpu, mem, data link)</li>
+            <li>Pumped up, over and over, for 50 years</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split">
+          <div class="copy">
+            <h1>What<br>is AI?</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/title-bot.jpg" alt="A robot built out of circuit boards">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Let's think about this like the phone.</li>
+            <li>What are the core pieces?</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame violet split flip crowded">
+          <div class="copy">
+            <h1>AI is:<br>a neural<br>network.</h1>
+          </div>
+          <div class="art">
+            <img src="images/net.gif" alt="A looping network of nodes with a signal moving through">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>In 1943, two guys named Warren and Walter build a math calculation inspiried by their understanding of the brain.</li>
+            <li>15 yrs later, In 1958, a dude named Frank updated the math model so that it could "learn" by making the math model updateable.</li>
+            <li>A NN is a way to take an input and predict an output.</li>
+            <li>Let's take a simple example.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame yellow split">
+          <div class="copy">
+            <h1>“The sky<br>is ...”</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/blue-sky.jpg" alt="A flat blue sky">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>A NN is a mathmatical model that can predict the next word.</li>
+            <li>Now there's a process.</li>
+            <li>You have to train it, you give it lots of data, like all of wikipedia.</li>
+            <li>You have lots of humans grade it and give it feedback.</li>
+            <li>As you loop this process, it gets better at predicting.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split flip">
+          <div class="copy">
+            <h1>AI is:<br><span class="mark">code.</span></h1>
+          </div>
+          <div class="art">
+            <img src="images/code-beast.jpg" alt="A creature made out of a keyboard">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>A math model by itself doesn't do much.</li>
+            <li>But if you train it for a long time and then wrap it in a browser...</li>
+            <li>... like Chat-GPT ... It feels like Magic.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame orange split crowded">
+          <div class="copy">
+            <h1>Pump.<br>Pump.<br>Pump.</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/three-pumps.jpg" alt="Three cranks turning a knot of math, a stack of computers, and a flood of pages">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Since 1958, it's been a slow progression.</li>
+            <li>In 2017, 3 things finally came together:
+              <ul>
+                <li>Improvements in the Math Model (NN)</li>
+                <li>Lots of compute was available</li>
+                <li>Tons of data thanks to the internet.</li>
+              </ul>
+            </li>
+            <li>Since then, we just kepting pumping.</li>
+            <li>And pumping.</li>
+            <li>More wikipedia.</li>
+            <li>More humans in india grading the responses.</li>
+            <li>More math.</li>
+            <li>Pump. Pump. Pump.</li>
+            <li>Just like the smart phone. AI emerges.</li>
+            <li>But is this really just like the phone? or Nukes?</li>
+            <li>There's some truth to that, we'll come back to that.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split">
+          <div class="copy">
+            <h1>Who's<br>talking?</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/barkers.jpg" alt="Two carnival barkers, one with a storm cloud and one with a rocket">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>There are clear lovers and haters, why is that?</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame violet split flip crowded">
+          <div class="copy">
+            <h1>Best.<br>Lemonade.<br>Ever.</h1>
+          </div>
+          <div class="art">
+            <img src="images/lemonade.jpg" alt="A vendor holding up a glowing cup of lemonade">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>We need to understand incentives.</li>
+            <li>The optimists.</li>
+            <li>If I have Lemonade and want to make money, what will I do?</li>
+            <li>Make them seem like the best thing ever.
+              <ul>
+                <li>"It quenches your thirst"</li>
+                <li>"It hydrates you more than water"</li>
+              </ul>
+            </li>
+            <li>Success.</li>
+            <li>These are the optimists like Elon Musk and Mark Zuck</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame pink split crowded">
+          <div class="copy">
+            <h1>Everyone<br>has a<br>stand.</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/stands.jpg" alt="A street full of little lemonade stands around one giant stand">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Now - tomorrow - everyone has lemonade stands</li>
+            <li>How do I shut them down?</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split flip">
+          <div class="copy">
+            <h1>The wrong<br>lemons.</h1>
+          </div>
+          <div class="art">
+            <img src="images/inspector.jpg" alt="An inspector tagging a small lemonade stand while a fancy stand stays open">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>I can spread a rumor about lemons.
+              <ul>
+                <li>"Did you know South American lemons will get you sick?"</li>
+              </ul>
+            </li>
+            <li>Then, I sell "North American" Lemons</li>
+            <li>Then, I pay an inspector to go around the lemon tables and tell everyone they're using the wrong lemons.</li>
+            <li>Dario at Antrophic (Claude Code), and Sam Altman at OpenAI (ChatGPT) are doing this.</li>
+            <li>They want to say, "it's dangerous, since I know that, only I can be trusted to wield this power".</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame acid split crowded">
+          <div class="copy">
+            <h1>What's in it<br>for them?</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/incentive.jpg" alt="One hand holding a megaphone and the other holding cash">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>But there's more voices than just Big Tech.</li>
+            <li>Here's the main point I want you to think about.</li>
+            <li>Each person has incentives.</li>
+            <li>Rich people want to hold on to their wealth.</li>
+            <li>I don't know why some people love it and some hate it.</li>
+            <li>But you have to at least ask, "what's this person's incentive"?</li>
+            <li>Since there's so much noise, you have to dig in,</li>
+            <li>Let's just dig into one example.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame coral split flip crowded">
+          <div class="copy">
+            <h1>100 million<br>views.</h1>
+          </div>
+          <div class="art">
+            <img src="images/viral.jpg" alt="A tiny phone erupting into a crowd">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>September 8th.</li>
+            <li>Jacob Coxon quit Anthropic with a tweet. "Gambling our lives"</li>
+            <li>It goes Viral; 100 million views over night.</li>
+            <li>Championed as an expert we should listen to.</li>
+            <li>Let's dig a little deeper.</li>
+            <li>Jacob's post went out at 8:04 p.m.</li>
+            <li>Jacob had less than 100 followers on X, at the time.</li>
+            <li>He graduated in 2020 and has only spent 3 years working at OpenAI. And 4-6 months at Anthropic.</li>
+            <li>How did he go viral?</li>
+            <li>Within about 10 mins, Nathan Calvin (~8k) and Daniel Kokotajlo (~53k) shared the tweet. Both are in the "doom" camp.</li>
+            <li>At 7:46 p.m. the WSJ published an article that referenced Jacob's tweet.</li>
+            <li>???</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame acid poster">
+          <h1>Will it<br>kill us?</h1>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>The fear comes last, after they know who's selling it.</li>
+            <li>Three versions. Jobs. Art. Bodies.</li>
+            <li>Tell them the serious one is last.</li>
+            <li>Don't smile through this slide. Ask it like you mean it.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split flip">
+          <div class="copy">
+            <h1>The bomb<br><span class="mark">didn't.</span></h1>
+          </div>
+          <div class="art">
+            <img src="images/bomb.gif" alt="A cartoon bomb with a spark moving along the fuse">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>This is the one analogy that doesn't need stretching.</li>
+            <li>A weapon that can end cities, and a chain that can end the species.</li>
+            <li>It didn't. Not because the physics flinched.</li>
+            <li>Because people didn't turn the last key. Luck, fear, treaties, particular men.</li>
+            <li>Hold the slide. Then turn it. Don't rush the turn.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame cream poster">
+          <h1>But<br>what if?</h1>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Don't dodge your own question.</li>
+            <li>The honest bomb analogy includes the branch where it goes off.</li>
+            <li>You are not here to promise safety.</li>
+            <li>You are here to say where the danger actually sits.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink split mega">
+          <div class="copy">
+            <h1>50/50</h1>
+          </div>
+          <div class="art tilt-r">
+            <img src="images/coin.gif" alt="A coin flipping between a person and a chip">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Your number. Say it like you picked it.</li>
+            <li>Not a lab's slide. Not a model estimate. Yours.</li>
+            <li>Half. You will not pretend to know which half.</li>
+            <li>The next line is why the coin is even in the air.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame pink split flip">
+          <div class="copy">
+            <h1>People.<br>Not <span class="mark">tech.</span></h1>
+          </div>
+          <div class="art">
+            <img src="images/hand-chip.jpg" alt="A human hand holding a tiny microchip">
+          </div>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Same lesson as the bomb.</li>
+            <li>The weights are not the villain. The hands are.</li>
+            <li>Incentives, pride, nations, companies, fear.</li>
+            <li>If they remember one sentence from this half, make it this one: the risk is human.</li>
+            <li>Then take the fear somewhere, or you just scared a room and walked off.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame ink poster">
+          <h1>He will<br>return.</h1>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Plain. Then the "maybe."</li>
+            <li>The Lord will return. Say that without dressing it up.</li>
+            <li>Maybe he uses this. You are not dating the apocalypse.</li>
+            <li>You are refusing the idea that history is a machine with nobody at the wheel.</li>
+            <li>Don't camp here. The last slide is where you land.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="frame cream closer quiet">
+          <div class="art">
+            <img src="images/comfort.jpg" alt="A simple cross in front of a sun">
+          </div>
+          <h1>To God,<br>who comforts.</h1>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>Land on comfort, not on dread. Then stop.</li>
+            <li>Fear is a bad place to live and a good place to leave from.</li>
+            <li>Let it drive you to God, who comforts.</li>
+            <li>Say the line. Leave it there. No Q&amp;A segue until it has sat.</li>
+          </ul>
+        </aside>
+      </section>
+
+    </div>
+  </div>
+  <script src="node_modules/reveal.js/dist/reveal.js"></script>
+  <script src="node_modules/reveal.js/dist/plugin/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      width: 1920,
+      height: 1080,
+      margin: 0,
+      minScale: 0.2,
+      maxScale: 2.0,
+      controls: false,
+      progress: true,
+      slideNumber: false,
+      transition: "fade",
+      transitionSpeed: "fast",
+      backgroundTransition: "fade",
+      center: false,
+      plugins: [RevealNotes]
+    });
+  </script>
+</body>
+</html>
