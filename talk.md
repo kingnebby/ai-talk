@@ -173,6 +173,8 @@ Picture: A creature made out of a keyboard.
 Notes:
 
 - A math model by itself doesn't do much.
+- It's like the engine of a car. But the car gives it it's true potential.
+- We sometimes call this the "Harness"
 - But if you train it for a long time and then wrap it in a browser...
 - ... like Chat-GPT ... It feels like Magic.
 
@@ -214,6 +216,9 @@ Picture: Two carnival barkers, one with a storm cloud and one with a rocket.
 Notes:
 
 - There are clear lovers and haters, why is that?
+- There's many reasons, but two are clear to me.
+- 1. Business. 2. Ideology.
+- Let's talk business first.
 
 
 
@@ -228,7 +233,7 @@ Notes:
 - We need to understand incentives.
 - The optimists.
 - If I have Lemonade and want to make money, what will I do?
-- Make them seem like the best thing ever.
+- Market it. Make it seem like the best thing ever.
   - "It quenches your thirst"
   - "It hydrates you more than water"
 - Success.
@@ -266,6 +271,25 @@ Notes:
 
 
 
+## 16
+
+On screen: <tbd>
+
+Picture: <tbd>
+
+Notes:
+
+- But Dario, Antropic > Claude Code, is in it for more than money.
+- He has an ideology (a core belief).
+- He really does believe that this AI we're making will be our god, someday.
+- He's written a few papers describing his view, which feels like a religion view.
+- One is called "Machines of Loving Grace: How AI Could Transform the World for the Better" - which is a reference to a 1967 poem about machines and humans living in harmony.
+- They have a Claude Constitution and are training it on that instead of American Constitution.
+- They are telling the NN that it's conscience - so of course it will act like that.
+- Ideologies scare me more than the tech.
+
+
+
 ## 17
 
 On screen: What's in it for them?
@@ -274,13 +298,12 @@ Picture: One hand on a megaphone, the other holding a stack of cash.
 
 Notes:
 
-- But there's more voices than just Big Tech.
 - Here's the main point I want you to think about.
-- Each person has incentives.
+- Each person has incentives. Whether business, or ideological.
 - Rich people want to hold on to their wealth.
-- I don't know why some people love it and some hate it.
+- People of faith, want to uphold their faith.
 - But you have to at least ask, "what's this person's incentive"?
-- Since there's so much noise, you have to dig in,
+- Since there's so much noise, you have to dig in.
 - Let's just dig into one example.
 
 
@@ -301,10 +324,12 @@ Notes:
 - Jacob's post went out at 8:04 p.m.
 - Jacob had less than 100 followers on X, at the time.
 - He graduated in 2020 and has only spent 3 years working at OpenAI. And 4-6 months at Anthropic.
+- Before Jacob worked in AI he was part of several Non-Profits that were already critical of AI. (Ideology)
+- So, he wasn't an expert before this post.
 - How did he go viral?
 - Within about 10 mins, Nathan Calvin (~8k) and Daniel Kokotajlo (~53k) shared the tweet. Both are in the "doom" camp.
 - At 7:46 p.m. the WSJ published an article that referenced Jacob's tweet.
-- ???
+- Idk about you, but this is a smell about it.
 
 ---
 
@@ -318,12 +343,8 @@ Picture: None. The question fills the slide.
 
 Notes:
 
-- The fear comes last, after they know who's selling it.
-- Three versions. Jobs. Art. Bodies.
-- Tell them the serious one is last.
-- Don't smile through this slide. Ask it like you mean it.
-
-
+- Phone isn't a good enough anology.
+- The Nuke is, unfortnately, the better comparison.
 
 ## 20
 
@@ -333,13 +354,9 @@ Picture: A cartoon bomb with a spark moving along the fuse.
 
 Notes:
 
-- This is the one analogy that doesn't need stretching.
-- A weapon that can end cities, and a chain that can end the species.
-- It didn't. Not because the physics flinched.
-- Because people didn't turn the last key. Luck, fear, treaties, particular men.
-- Hold the slide. Then turn it. Don't rush the turn.
-
-
+- Not an expert in history.
+- How many people died in the cold war? Wasn't that a nuke stalemate?
+- 
 
 ## 21
 
@@ -358,7 +375,7 @@ Notes:
 
 ## 22
 
-On screen: 50/50
+On screen: 50/50 Catastrophe
 
 Picture: A coin flipping between a person and a chip.
 
@@ -384,8 +401,11 @@ Notes:
 - Incentives, pride, nations, companies, fear.
 - If they remember one sentence from this half, make it this one: the risk is human.
 - Then take the fear somewhere, or you just scared a room and walked off.
+- Debating if AI is good/bad is a distraction, we should be debating the worldviews and methods of the Creators of AI.
 
+---
 
+[This is a final concluding thought]
 
 ## 24
 
@@ -415,4 +435,16 @@ Notes:
 - Fear is a bad place to live and a good place to leave from.
 - Let it drive you to God, who comforts.
 - Say the line. Leave it there. No Q&A segue until it has sat.
+
+
+
+---
+
+# Appendix
+
+Notes:
+
+- Alignment - what the humans tell it to do.
+  - Anthropic is telling it that it's conscience and to *not* always follow the users.
+- AI is more like a Religion right now. 
 
